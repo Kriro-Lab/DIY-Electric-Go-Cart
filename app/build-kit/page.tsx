@@ -6,11 +6,20 @@ export default function BuildKitPage() {
       </h1>
 
       <p className="mb-6">
-        Complete parts list for building a DIY electric go-kart.
-        No guesswork — just buy and build.
+        Complete parts list for building a DIY electric go-kart. All
+        components listed are compatible combinations — no guesswork.
       </p>
 
-      <section className="mb-10">
+      <div className="mb-8">
+        <a
+          href="#essential"
+          className="bg-black text-white px-6 py-3 rounded inline-block"
+        >
+          View Essential Parts
+        </a>
+      </div>
+
+      <section id="essential" className="mb-10">
         <h2 className="text-xl font-semibold mb-3">Essential Components</h2>
 
         <ul className="space-y-3">
@@ -81,10 +90,10 @@ export default function BuildKitPage() {
 
       <div className="mt-10">
         <a
-          href="#"
+          href="/best-motor"
           className="bg-black text-white px-6 py-3 rounded inline-block"
         >
-          Get Full Parts List
+          Best Motors for DIY Go-Karts
         </a>
       </div>
     </main>
